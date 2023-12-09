@@ -138,7 +138,7 @@
 						
 						<h2 class="secondarycolor">Carnegie Mellon University </h2>
 						<h3 class="secondarycolor"> Master of Science in Computer Science</h3>
-						<h3 class="secondarycolor">Aug 22 - Dec 23</h3>
+						<h3 class="secondarycolor">Aug 2022 - Dec 2023</h3>
 						<h3 class = "narrower smalltext">Overall GPA: 3.84</h3>
 						
 					</article>
@@ -151,7 +151,7 @@
 						<h2 class="secondarycolor">University of Virginia </h2>
 						<h3 class="secondarycolor"> Bachelor of Science in Computer Science</h3>
 						<h3 class="secondarycolor">Minor: Statistics</h3>
-						<h3 class="secondarycolor">Aug 18 - May 22</h3>
+						<h3 class="secondarycolor">Aug 2018 - May 2022</h3>
 						<h3 class = "narrower smalltext">Overall GPA: 3.95</h3>
 						<h3 class = "narrower smalltext">Major-course GPA: 4.0</h3>
 						
@@ -279,9 +279,54 @@
                 </section>
 
 
-				<!-- three -->
-                <section id="four">
-                    <h2 id="Research" class="darker">Research</h2>
+				<section id="four">
+                    <h2 id="Research" class="darker">Research and Projects </h2>
+					<p class="narrower secondarycolor"> Footprints Web App  [Python, SQL, Django, Apache, HTML, JS, CSS, Linux]</p>
+					<ul class="smalltext">
+						<li>Developed a map platform with Django to pin, describe, group, and share locations, supporting topic-based, 
+							location-based, and keyword-based filtering. </li>
+						<li>Built upon Google Map features, used AJAX for asynchronous fast updates, implemented OAuth for authentication, 
+							designed databases, hosted images on Apache, and managed it with CICD pipelines using Heroku. </li>
+					</ul>
+
+					<p class="narrower secondarycolor"> Machine Learning and Deep Learning Algorithms  [Python, PyTorch, TensorFlow, Keras, Scikit-learn, AWS]</p>
+					<ul class="smalltext">
+						<li>Implemented a multi-payer perceptron with batch normalization and a convolution neural network 
+							with maxpooling for street-view house numbers classification.  </li>
+						<li>Built a deep belief network (DBN) with Restricted Boltzmann Machine (RBM) and trained it with gibbs sampling. </li>
+						<li>Implemented a Natural Language Processing system to classify restaurant reviews, a Neural Network for alphabet 
+							images classifications, a Named Entity Recognition (NER) using hidden Markov models (HMM) to classify nouns into 
+							categories, and a Q-learning with linear function approximations to obtain optimal policies/actions for a car stuck in a mountain. </li>
+					</ul>
+
+					<p class="narrower secondarycolor"> Advanced AWS Auto-scaling [Python, Linux, AWS]</p>
+					<ul class="smalltext">
+						<li>Improved Amazon EC2 auto-scaling efficiency for TensorFlow image classification with 3 strategies: 
+							applying terraform for automatic AWS resource provisioning, designing custom auto-scaling controller
+							 to collect metrics from running EC2 for scaling decisions, and directing requests to AWS lambda with event-driven serverless functions. </li>
+					</ul>
+
+					<p class="narrower secondarycolor"> Distributed Bitcoin Miner [Golang]</p>
+					<ul class="smalltext">
+						<li>Implemented the Live Sequence Protocol (LSP) with Go to strengthen reliable client-server-API
+							 communications on top of Internet UDP protocol.  </li>
+						<li> Built a distributed bitcoin miner on top of LSP to handle various failures and to balance loads efficiently for scalability.</li>
+					</ul>
+
+					<p class="narrower secondarycolor"> Multiuser Game Storage Backend [Golang]</p>
+					<ul class="smalltext">
+						<li>Architected the backend storage system for a massive text-based multiplayer online game with synchronizations using Go 
+							to ensure consistent game states across geographically distributed servers. </li>
+						<li> Facilitate coordination across networks and enabled high concurrency and availability by implementing distributed 
+							actors with mailboxes and message passing RPC.</li>
+					</ul>
+
+					<p class="narrower secondarycolor"> Raft Consensus Algorithm [Golang]</p>
+					<ul class="smalltext">
+						<li>Implemented voting RPC handlers and heartbeat mechanisms to ensure safety and liveness for leader election using Go.</li>
+						<li>Employed log replication to commit commands and to maintain consistency across servers to prevent server/network failure.</li>
+					</ul>
+
 					<p class="narrower secondarycolor"> Causal Inference Algorithm Toolkit [Python, PyTorch, TensorFlow, Keras, Scikit-learn]</p>
 					<ul class="smalltext">
 						<!-- <li>Implemented a causal inference toolkit by building machine learning and statistical models such as XLearner, Dragonnet, and Counterfactual 
@@ -291,15 +336,13 @@
 					</ul>
 
 					<p class="narrower secondarycolor">Software Development: Friend Matching [SQL, Django, Travis CI, Heroku, HTML, JS, CSS]</p>
-                    <p class="narrower secondarycolor"><a href="https://friends-b21.herokuapp.com"> https://friends-b21.herokuapp.com </a> <br> note: the application is only accessible to UVA students due to institutional restriction.</p>
-					<!-- <p class="smalltext">note: the application is only accessible to UVA students due to institutional restriction</p> -->
 					<ul class="smalltext">
 						<li>Developed a server-side rendering web application to match users based on similarity. Implemented an institutional restricted authentication system, a matching algorithm, a profile display board, and a chat channel.</li>
 						<li>Designed a database and managed it through modeling, migrations, and SQL queries. Conducted unit testing with Travis CI and deployed software on Heroku.</li>
 					</ul>
 
 					<p class="narrower secondarycolor"> Machine Learning: Video Information Extraction [Python, PyTorch, TensorFlow] (refer to the Publications section)</p>
-                    <p class="narrower secondarycolor"><a href="https://friends-b21.herokuapp.com"> https://doi.org/10.1145/3474085.3479226 </a> </p>
+                    <p class="narrower secondarycolor"><a href="https://doi.org/10.1145/3474085.3479226"> https://doi.org/10.1145/3474085.3479226 </a> </p>
 					<!-- <p class="smalltext">note: the application is only accessible to UVA students due to institutional restriction</p> -->
 					<ul class="smalltext">
 						<li>Designed algorithms to increase video labeling accuracy from 69% to 82%.</li>
@@ -322,8 +365,8 @@
 							perform adversarial attacks, dropping 25% success rate on average.</li>
 					</ul>
 
-                    <p class="narrower secondarycolor"> Data Pipeline for Sutdent Collaboration Investigation [Python, SQL, Gephi](refer to the Publications section)</p>
-					<p class="narrower secondarycolor"><a href = "https://dl.acm.org/doi/10.1145/3474085.3479226">https://doi.org/10.1145/3408877.3432389   </a></p>
+                    <p class="narrower secondarycolor"> Data Pipeline for Student Collaboration Investigation [Python, SQL, Gephi](refer to the Publications section)</p>
+					<p class="narrower secondarycolor"><a href = "https://doi.org/10.1145/3408877.3432389">https://doi.org/10.1145/3408877.3432389   </a></p>
 					<ul class="smalltext">
 						<li>Designed a data analysis pipeline, investigating raw data to determine the optimal study-group size and factors that affected how students collaborate. Used Excel and Gephi to visualize data interactions and results.</li>
 						<li>Led group discussions to design research questions, distributed tasks, and organized timelines.</li>
@@ -336,76 +379,94 @@
                 <p>
                 </section>
 
+			
+
 
 
 				<!-- Five -->
-					<section id="five" class="smalltext">
-						<h2 class="darker">Projects</h2>
-						<div class="row">
+				<section id="five" class="smalltext">
+					<h2 class="darker">Selective Projects Demo</h2>
+					<div class="row">
 
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="projectpages/music_generation.html" class="image fit thumb"><img src="images/musi_icon.png"  alt="" /></a>
-                                <!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
-								<h3 class="secondarycolor">Music Generation</h3>
-								<p>convert a one-line monophonic melody into a two-line polyphonic melody using Q-learning</p>
-							</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="projectpages/music_generation.html" class="image fit thumb"><img src="images/musi_icon.png"  alt="" /></a>
+							<!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
+							<h3 class="secondarycolor">Music Generation</h3>
+							<p>convert a one-line monophonic melody into a two-line polyphonic melody using Q-learning</p>
+						</article>
 
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="projectpages/graphics.html" class="image fit thumb"><img src="images/camera.gif"  alt="" /></a>
-                                <!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
-								<h3 class="secondarycolor">Image and Animation Generation </h3>
-								<p>contain multiple images and GIFs generated using algorithm techniques of rasterizer, raytracer, and scene graphs</p>
-							</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="projectpages/graphics.html" class="image fit thumb"><img src="images/camera.gif"  alt="" /></a>
+							<!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
+							<h3 class="secondarycolor">Image and Animation Generation </h3>
+							<p>contain multiple images and GIFs generated using algorithm techniques of rasterizer, raytracer, and scene graphs</p>
+						</article>
 
-							<!-- <article class="col-6 col-12-xsmall work-item">
-								<a href="http://cs.virginia.edu/~zw3hk/CS4750/about.php" class="image fit thumb"><img src="images/db_about.png"  alt="" /></a>
-								<h3 class="secondarycolor">Disney Movie Database</h3>
-								<p>To log in as a user: try account first name: "first", last name:"last", password:"user"</p>
-								<p>To log in as an admin: try account first name: "Mint", last name:"Lin", password:"mint"</p>
-							</article> -->
+						<!-- <article class="col-6 col-12-xsmall work-item">
+							<a href="http://cs.virginia.edu/~zw3hk/CS4750/about.php" class="image fit thumb"><img src="images/db_about.png"  alt="" /></a>
+							<h3 class="secondarycolor">Disney Movie Database</h3>
+							<p>To log in as a user: try account first name: "first", last name:"last", password:"user"</p>
+							<p>To log in as an admin: try account first name: "Mint", last name:"Lin", password:"mint"</p>
+						</article> -->
 
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://friends-b21.herokuapp.com/" class="image fit thumb"><img src="images/cs3240.png"  alt="" /></a>
-                                <!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
-								<h3 class="secondarycolor">Friend Finder</h3>
-								<p>create an account and log in to meet friends, view similarity scores, and talk to them! </p>
-								<p>Note: require UVA log in </p>
-							</article>
+						
+						<article class="col-6 col-12-xsmall work-item">
+							<img src="images/cs3240.png" class="image fit thumb"  alt="" />
+							<!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
+							<h3 class="secondarycolor">Friend Finder Web App </h3>
+							<p>create an account and log in to meet friends, view similarity scores, and talk to them! </p>
+							<p>Note: require UVA log in. Not clickable now because this project is archived. </p>
+						</article>
 
+						<article class="col-6 col-12-xsmall work-item">
+							<img src="images/footprint.jpg" class="image fit thumb"  alt="" />
+							<!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
+							<h3 class="secondarycolor">FootPrint Web App</h3>
+							<p>Use this app to pin, describe, group, and share locations!</p>
+							<p>Note: not clickable now because this project is archived. </p>
+						</article>
 
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="projectpages/data_visualization.html" class="image fit thumb"><img src="images/elevation_o3.png" alt="" /></a>
-                                <!-- source: https://blogs.sas.com/content/sascom/2014/12/05/data-visualization-first-prepare-your-data/#prettyPhoto -->
-								<h3 class="secondarycolor">Data Visualization</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="projectpages/ml.html" class="image fit thumb"><img src="images/ml.png" alt="" /></a>
-                                <!-- source: https://www.forbes.com/sites/tomtaulli/2019/03/02/what-you-need-to-know-about-machine-learning/?sh=22e691a82fe4 -->
-								<h3 class="secondarycolor">Machine Learning</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="projectpages/drawing.html" class="image fit thumb"><img src="images/at the cliff.png" alt="" /></a>
-								<h3 class="secondarycolor">My artwork</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
-							</article>
-							<!-- <article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article> -->
-						</div>
-						<!-- <ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul> -->
-					</section>
+						<article class="col-6 col-12-xsmall work-item">
+							<img src="images/db_about.png" class="image fit thumb"  alt="" />
+							<!-- source: https://www.visualpharm.com/free-icons/music-595b40b65ba036ed117d150a -->
+							<h3 class="secondarycolor">Disney Movie Database</h3>
+							<p> Use this application to lookup and filter Disney movie information!</p>
+							<p>Note: not clickable now because this project is archived. </p>
+						</article>
+
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="projectpages/data_visualization.html" class="image fit thumb"><img src="images/elevation_o3.png" alt="" /></a>
+							<!-- source: https://blogs.sas.com/content/sascom/2014/12/05/data-visualization-first-prepare-your-data/#prettyPhoto -->
+							<h3 class="secondarycolor">Data Visualization</h3>
+							<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="projectpages/ml.html" class="image fit thumb"><img src="images/ml.png" alt="" /></a>
+							<!-- source: https://www.forbes.com/sites/tomtaulli/2019/03/02/what-you-need-to-know-about-machine-learning/?sh=22e691a82fe4 -->
+							<h3 class="secondarycolor">Machine Learning</h3>
+							<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="projectpages/drawing.html" class="image fit thumb"><img src="images/at the cliff.png" alt="" /></a>
+							<h3 class="secondarycolor">My artwork</h3>
+							<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+						</article>
+						<!-- <article class="col-6 col-12-xsmall work-item">
+							<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+							<h3>Nunc enim commodo aliquet</h3>
+							<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+							<h3>Risus ornare lacinia</h3>
+							<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+						</article> -->
+					</div>
+					<!-- <ul class="actions">
+						<li><a href="#" class="button">Full Portfolio</a></li>
+					</ul> -->
+				</section>
+
 
                     	<!-- Four -->
                 <section id="four" class="smalltext">
